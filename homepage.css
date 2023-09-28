@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+
+
+    background-image: url(https://images.hdqwalls.com/download/autumn-in-finland-q4-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+#navbar{
+    height: 100px;
+    background-color: rgba(212, 167, 89, 0.6);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+ 
+}
+
+#logo{
+    margin-left: 100px;
+    color:brown;
+}
+
+#logo span{
+    color:white;
+}
+
+#menu ul{
+display: flex;
+margin-right: 50px;
+
+}
+
+#menu ul li{
+    margin:10px;
+    list-style: none;
+    
+    
+}
+
+#menu ul li a {
+    color:brown;
+    font-size: 1.5rem;
+    padding:10px;
+    transition:all .3s ease-in-out;
+    
+
+}
+
+#menu ul li a:hover{
+    background-color: brown;
+    border-radius: 7px;
+    color:white;
+}
+
+#roundbtn{
+    height:75px;
+    width:75px;
+    background-color: rgba(212, 167, 89);
+    border-radius:50%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-right: 35px;
+    transition:all .3s ease-in-out;
+
+}
+
+#roundbtn:hover{
+    background-color: rgba(212, 167, 89, 0.6);
+    color:white;
+    border:solid 1px white;
+    box-shadow:0 0 10px rgba(212, 167, 89);
+    
+}
+
+#centersec{
+    display:flex;
+    justify-content: space-between;
+    margin-top:200px;
+    margin-bottom:30px;
+}
+
+#quote{
+    font-size: 4rem;
+    margin-left: 35px;
+    color:white;
+}
+
+#quote span{
+    color:brown;
+}
+
+#footer{
+    width:100%;
+    height:10px;
+    background-color:rgba(212, 167, 89, 0.6);
+
+}
+
+#btngroup{
+    margin-top:30px;
+    margin-bottom:160px;
+}
+
+#bodysec p{
+    width:800px;
+    color:white;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+#btngroup{
+    margin-left: 50px;
+    
+}
+
+#btngroup button{
+    height:50px;
+    width:120px;
+    color:white;
+    background-color:rgba(212, 167, 89);
+    outline:none;
+    border:none;
+    font-size: 18px;
+    transition:all .3s linear;
+}
+
+#btngroup button:hover{
+    background-color: rgba(212, 167, 89,0.6);
+    box-shadow: 0 0 10px rgba(212, 167, 89,0.6);
+    border:solid 2px white;   
+    
+}
+
+#btn2{
+    margin:15px;
+}
+
